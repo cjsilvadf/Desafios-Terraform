@@ -6,5 +6,5 @@ droplet_name   = "vm-desafio-01"
 droplet_region = "nyc1"
 droplet_size   = "s-1vcpu-2gb"
 do_fw_name     = "fw-twitter-trends"
-
+#
 
