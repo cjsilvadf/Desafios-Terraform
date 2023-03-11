@@ -29,9 +29,6 @@ override.tf.json
 # example: *tfplan*
 
 *.tfvars
-.gitignore
-key/private-key-aulaterraform.ppk
-key/id_rsa.pub
 terraform-bronze/01-Twitter_Trends_Scan/.terraform.lock.hcl
 terraform-bronze/01-Twitter_Trends_Scan/terraform.tfvars
 terraform-bronze/01-Twitter_Trends_Scan/*.tfvars
