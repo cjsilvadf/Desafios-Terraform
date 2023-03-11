@@ -32,3 +32,4 @@ terraform-bronze/01-Twitter_Trends_Scan/terraform.tfvars
 
 .gitignore
 key/private-key-aulaterraform.ppk
+key/id_rsa.pub
