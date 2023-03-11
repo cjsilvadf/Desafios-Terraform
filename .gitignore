@@ -28,7 +28,7 @@ override.tf.json
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
 
-*.tfvars
+
 terraform-bronze/01-Twitter_Trends_Scan/.terraform.lock.hcl
 terraform-bronze/01-Twitter_Trends_Scan/terraform.tfvars
 terraform-bronze/01-Twitter_Trends_Scan/*.tfvars
