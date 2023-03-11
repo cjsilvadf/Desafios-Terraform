@@ -19,8 +19,8 @@ resource "digitalocean_firewall" "desafio_01" {
     source_addresses = ["239.13.117.114"]
   }
   inbound_rule {
-    protocol   = "tcp"
-    port_range = "443"
+    protocol         = "tcp"
+    port_range       = "443"
     source_addresses = ["239.13.117.114"]
   }
   outbound_rule {
