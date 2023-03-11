@@ -35,3 +35,4 @@ key/id_rsa.pub
 terraform-bronze/01-Twitter_Trends_Scan/.terraform.lock.hcl
 terraform-bronze/01-Twitter_Trends_Scan/terraform.tfvars
 terraform-bronze/01-Twitter_Trends_Scan/*.tfvars
+terraform-bronze/01-Twitter_Trends_Scan/teste02.txt
