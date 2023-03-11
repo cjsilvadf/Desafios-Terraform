@@ -6,7 +6,7 @@ resource "digitalocean_firewall" "desafio_01" {
   inbound_rule {
     protocol         = "tcp"
     port_range       = "22"
-    source_addresses = ["239.13.117.114", "179.127.253.130"]
+    source_addresses = ["239.13.117.114"]
   }
   inbound_rule {
     protocol         = "tcp"
