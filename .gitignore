@@ -45,3 +45,6 @@ terraform-bronze/03-CRM/id_rsa.pub
 terraform-bronze/03-CRM/terraform.tfvars
 terraform-bronze/03-CRM/.terraform.lock.hcl
 terraform-bronze/03-CRM/desafio-03.out
+terraform-bronze/04-CRM-HA/.terraform.lock.hcl
+terraform-bronze/04-CRM-HA/terraform.tfvars
+desafio-04.outterraform-bronze/04-CRM-HA/desafio-04.out
