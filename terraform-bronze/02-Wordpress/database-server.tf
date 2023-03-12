@@ -19,3 +19,12 @@ resource "digitalocean_database_firewall" "desafio02-db-fw" {
     value = digitalocean_droplet.desafio02.id
   }
 }
+resource "digitalocean_database_firewall" "desafio-02-fw" {
+  cluster_id = digitalocean_database_cluster.mysql-wordpress.id
+
+  rule {
+    type  = "ip_addr"
+    value = "10.117.0.2"
+  }
+
+}

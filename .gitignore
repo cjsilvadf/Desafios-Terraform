@@ -39,3 +39,9 @@ terraform-bronze/01-Twitter_Trends_Scan/desafio-02.out
 terraform-bronze/02-Wordpress/.terraform.lock.hcl
 terraform-bronze/02-Wordpress/desafio-02.out
 terraform-bronze/02-Wordpress/fonte.txt
+terraform-bronze/02-Wordpress/droplets.bkp
+
+terraform-bronze/03-CRM/id_rsa.pub
+terraform-bronze/03-CRM/terraform.tfvars
+terraform-bronze/03-CRM/.terraform.lock.hcl
+terraform-bronze/03-CRM/desafio-03.out
