@@ -1,7 +1,7 @@
-resource "digitalocean_firewall" "desafio_03" {
-  name = var.do_fw_name
+resource "digitalocean_firewall" "front-firewall" {
+  name = var.do_fw_name_front
 
-  droplet_ids = [digitalocean_droplet.desafio03.id]
+  droplet_ids = [digitalocean_droplet.vm-01_desafio03.id]
 
   inbound_rule {
     protocol         = "tcp"

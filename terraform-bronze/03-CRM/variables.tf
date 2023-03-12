@@ -11,7 +11,10 @@ variable "droplet_image" {
 variable "droplet_name" {
   type = string
 }
-variable "do_fw_name" {
+variable "do_fw_name_front" {
+  type = string
+}
+variable "do_fw_name_back" {
   type = string
 }
 variable "do_project_name" {
